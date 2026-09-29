@@ -1,0 +1,4 @@
+Pytest test count: 15
+Local build commit hash: 4aeaeb850bf084c6209f2847db20db6b8a5fab16
+
+PromptCI is implemented as a Python CLI for deterministic, change-triggered prompt evaluation using offline scripted fixture providers with declared token cost and latency profiles. It detects changed prompt versions, evaluates only affected suites, records per-case scores and token use, compares candidate cost and latency with a stored baseline, attributes regressions to prompts, and applies named release gate rules that update the baseline only on pass. It includes synthetic regression and cost-change scenarios, Markdown and HTML reports, comprehensive pytest coverage, and documentation that states the honesty boundary.
